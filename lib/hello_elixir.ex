@@ -19,7 +19,14 @@ defmodule HelloElixir do
   def shuffle(deck) do
     Enum.shuffle(deck)
   end
+  @doc """
+    Determines if deck contains a given card
 
+  ## Examples
+      iex> deck = HelloElixir.createDeck
+      iex> HelloElixir.contains?(deck, "Ace of Spades")
+      true
+  """
   def contains?(deck, card) do
     Enum.member?(deck, card)
   end
