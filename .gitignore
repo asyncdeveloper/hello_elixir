@@ -27,3 +27,4 @@ hello_elixir-*.tar
 /tmp
 
 .idea/
+.DS_Store
